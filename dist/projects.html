@@ -20,7 +20,7 @@
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light-cream py-3 position-sticky top-0 z-index-1050">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light-cream py-3 position-sticky top-0" style="z-index: 100">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Devin Reichenbach</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -29,7 +29,6 @@
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
                             <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -47,22 +46,137 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Project Name 1</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                            <h2 class="fw-bolder">ESP-32 Smart Christmas Tree Lights</h2>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Hosted a local ESP-32 web server to control WS-2812 LEDs via an interactive webpage.
+                                            </div>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Used HTTP requests to communicate data between user devices and web server to send data to LEDs
+                                            </div>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Developed interactive HTML, CSS, and JS web pages to select preprogrammed or custom patterns.
+                                            </div>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Preprogrammed LED patterns in C++ using Arduino IDE for an automated LED show option.
+                                            </div>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                                     </div>
                                 </div>
                             </div>
                             <!-- Project Card 2-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0">
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Project Name 2</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                            <h2 class="fw-bolder">Custom Guitar Pedal</h2>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Manipulated a pre-existing PT2399 PCB to add feedback and delay potentiometers
+                                            </div>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Soldered components to PCB (stomp switch, power inputs, LED indicators)
+                                            </div>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Developed and soldered a buffer board using capacitors, diodes, resistors, and transistors to isolate the input signal from the load of the output
+                                            </div>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Modeled a 3D printed enclosure using Fusion 360 to encompass all the components
+                                            </div>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img class="img-fluid" src="./assets/PCB_IMG.jpg" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 3-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">User Traffic Analysis – Web Application for WebFX</h2>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Developed a web application with a team of 9 students using confidential customer information that tracked and sorted a set of user paths through a related website.
+                                            </div>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Implemented user-visible and interactive features on the client side
+                                            </div>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Incorporated communication between client, server, and database
+                                            </div>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Used Agile Development to complete and present WebFx’s tasks in 2-week iterations.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 4-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">
+                                                Automatic Face Blurring Software
+                                                <a class="text-gradient" href="https://github.com/DevinReichenbach/AutomaticFaceBlurringProgram"><i class="bi bi-github"></i></a>
+                                            </h2>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Soley developed Python software with a user interface that given a video by the user, a facial recognition algorithm will detect faces, add a Gaussian blur to the detected faces, and return the edited video to the user.
+                                            </div>
+                                        </div>
+                                        <img class="img-fluid" src="./assets/BLUR_IMG.jpg" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 5-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Compression Tool Implementation</h2>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Implemented a Run-Length Encoding compression tool based on the "OSTEP Three Easy Pieces" Textbook's wzip project. This project encapsulated the use of concurrency and threads as my instructor required new tests that involved encoding and writing using multiple threads when files were large to increase the software performance.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 6-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Unix Shell Implementation</h2>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Implemented a command line interpreter using C based on the "Ostep Three Easy Pieces" Textbook. Used concepts such as forking processes, running parallel commands, redirecting output, and storing and maintaining a working directory.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 7-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Kevin M Penn Foundation Website</h2>
+                                            <div class="small ms-4 mb-2">
+                                                <i class="bi bi-circle-fill pb-1 me-2 center-svg-dot d-inline"></i>
+                                                Solely developed and deployed a website for Family Memorial Foundation using an HTML and CSS template for agile setup and customized the page to family's desires. Implemented the ability to accept donations, apply for annual scholarships, and a working contact page.
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -70,29 +184,18 @@
                     </div>
                 </div>
             </section>
-            <!-- Call to action section-->
             <section class="py-5 bg-gradient-primary-to-secondary text-white">
                 <div class="container px-5 my-5">
-                    <div class="text-center">
-                        <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
-                    </div>
+                    <div class="text-center"><h2 class="display-4 fw-bolder mb-4">Let's build something together</h2></div>
                 </div>
             </section>
         </main>
         <!-- Footer-->
         <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
-                    </div>
-                </div>
+            <div class="d-flex justify-content-center fs-2 gap-4">
+                <a class="text-gradient" href="https://www.linkedin.com/in/devinreichenbach/"><i class="bi bi-linkedin"></i></a>
+                <a class="text-gradient" href="https://github.com/DevinReichenbach"><i class="bi bi-github"></i></a>
+                <a class="text-gradient" href="mailto:devinareichenbach@gmail.com"><i class="bi bi-envelope-fill"></i></a>
             </div>
         </footer>
         <!-- Bootstrap core JS-->

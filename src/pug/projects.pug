@@ -37,25 +37,113 @@ html(lang='en')
                                 .card-body.p-0
                                     .d-flex.align-items-center
                                         .p-5
-                                            h2.fw-bolder Project Name 1
-                                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!
-                                        img.img-fluid(src='https://dummyimage.com/300x400/343a40/6c757d', alt='...')
+                                            h2.fw-bolder ESP-32 Smart Christmas Tree Lights
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Hosted a local ESP-32 web server to control WS-2812 LEDs via an interactive webpage.
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Used HTTP requests to communicate data between user devices and web server to send data to LEDs
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Developed interactive HTML, CSS, and JS web pages to select preprogrammed or custom patterns.
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Preprogrammed LED patterns in C++ using Arduino IDE for an automated LED show option.
 
                             // Project Card 2
-                            .card.overflow-hidden.shadow.rounded-4.border-0
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
                                 .card-body.p-0
                                     .d-flex.align-items-center
                                         .p-5
-                                            h2.fw-bolder Project Name 2
-                                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!
-                                        img.img-fluid(src='https://dummyimage.com/300x400/343a40/6c757d', alt='...')
+                                            h2.fw-bolder Custom Guitar Pedal
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Manipulated a pre-existing PT2399 PCB to add feedback and delay potentiometers
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Soldered components to PCB (stomp switch, power inputs, LED indicators) 
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Developed and soldered a buffer board using capacitors, diodes, resistors, and transistors to isolate the input signal from the load of the output
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Modeled a 3D printed enclosure using Fusion 360 to encompass all the components
+                                        img.img-fluid(src='./assets/PCB_IMG.jpg', alt='...')
 
-            // Call to action section
+                            // Project Card 3
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder User Traffic Analysis – Web Application for WebFX
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Developed a web application with a team of 9 students using confidential customer information that tracked and sorted a set of user paths through a related website. 
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Implemented user-visible and interactive features on the client side 
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Incorporated communication between client, server, and database 
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Used Agile Development to complete and present WebFx’s tasks in 2-week iterations.
+
+                            // Project Card 4
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Automatic Face Blurring Software
+                                                a.text-gradient(href='https://github.com/DevinReichenbach/AutomaticFaceBlurringProgram')
+                                                    i.bi.bi-github
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Soley developed Python software with a user interface that given a video by the user, a facial recognition algorithm will detect faces, add a Gaussian blur to the detected faces, and return the edited video to the user.
+                                        img.img-fluid(src='./assets/BLUR_IMG.jpg', alt='...')
+
+                            // Project Card 5
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Compression Tool Implementation
+                                                a.text-gradient(href='https://github.com/DevinReichenbach/Operating-Systems/tree/main/Project2')
+                                                    i.bi.bi-github
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Implemented a Run-Length Encoding compression tool based on the "OSTEP Three Easy Pieces" Textbook's wzip project. This project encapsulated the use of concurrency and threads as my instructor required new tests that involved encoding and writing using multiple threads when files were large to increase the software performance.
+
+                            // Project Card 6
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Unix Shell Implementation
+                                                a.text-gradient(href='https://github.com/DevinReichenbach/Operating-Systems/tree/main/Project')
+                                                    i.bi.bi-github
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Implemented a command line interpreter using C based on the "Ostep Three Easy Pieces" Textbook. Used concepts such as forking processes, running parallel commands, redirecting output, and storing and maintaining a working directory.
+
+                            // Project Card 7
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Kevin M Penn Foundation Website
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Solely developed and deployed a website for Family Memorial Foundation using an HTML and CSS template for agile setup and customized the page to family's desires. Implemented the ability to accept donations, apply for annual scholarships, and a working contact page.
+
             section.py-5.bg-gradient-primary-to-secondary.text-white
                 .container.px-5.my-5
                     .text-center
                         h2.display-4.fw-bolder.mb-4 Let's build something together
-                        a.btn.btn-outline-light.btn-lg.px-5.py-3.fs-6.fw-bolder(href='contact.html') Contact me
+
+
+
 
         // Footer
         include includes/footer.pug
