@@ -8,14 +8,14 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Personal - Start Bootstrap Template
+        title Resume - Devin Reichenbach
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
         include includes/css.pug
 
-    body.d-flex.flex-column.h-100.bg-light
+    body.d-flex.flex-column.h-100
 
         main.flex-shrink-0
 
@@ -34,82 +34,96 @@ html(lang='en')
                         // Experience Section
                         section
                             .d-flex.align-items-center.justify-content-between.mb-4
-                                h2.text-primary.fw-bolder.mb-0 Experience
+                                h2.text-secondary.fw-bolder.mb-0 Experience
                                 // Download resume button
                                 // Note: Set the link href target to a PDF file within your project
-                                a.btn.btn-primary.px-4.py-3(href='#!')
+                                a.btn.btn-secondary.px-4.py-3(href='assets/DReichenbach Resume.pdf')
                                     .d-inline-block.bi.bi-download.me-2
                                     | Download Resume
 
                             // Experience Card 1
-                            .card.shadow.border-0.rounded-4.mb-5
-                                .card-body.p-5
-                                    .row.align-items-center.gx-5
-                                        .col.text-center.text-lg-start.mb-4.mb-lg-0
-                                            .bg-light.p-4.rounded-4
-                                                .text-primary.fw-bolder.mb-2 2019 - Present
-                                                .small.fw-bolder Web Developer
-                                                .small.text-muted Stark Industries
-                                                .small.text-muted Los Angeles, CA
-                                        .col-lg-8
-                                            div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
-
                             // Experience Card 2
-                            .card.shadow.border-0.rounded-4.mb-5
+                            .card.shadow.border-0.rounded-4.mb-5.bg-light-cream
                                 .card-body.p-5
-                                    .row.align-items-center.gx-5
-                                        .col.text-center.text-lg-start.mb-4.mb-lg-0
-                                            .bg-light.p-4.rounded-4
-                                                .text-primary.fw-bolder.mb-2 2017 - 2019
-                                                .small.fw-bolder SEM Specialist
-                                                .small.text-muted Wayne Enterprises
-                                                .small.text-muted Gotham City, NY
-                                        .col-lg-8
-                                            div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
-
-                        // Education Section
-                        section
-                            h2.text-secondary.fw-bolder.mb-4 Education
-                            
-                            // Education Card 1
-                            .card.shadow.border-0.rounded-4.mb-5
+                                    .row.g-2
+                                        .col-12.col-md-6.text-center.text-lg-start.mb-4.mb-lg-0
+                                        .bg-lighter-cream.p-4.rounded-4
+                                            .text-secondary.fw-bolder.mb-2 Jan 2025 - Present
+                                            .mb-2
+                                            .medium.fw-bolder Manufacturing Engineering Intern
+                                            .small.fw-bolder Volvo CE
+                                            .small.text-muted Shippensburg, PA
+                                        .col-12.col-md-6.text-center.text-lg-start.mb-4.mb-lg-0
+                                        .bg-lighter-cream.p-4.rounded-4
+                                            .text-secondary.fw-bolder.mb2 Position Responsibilities
+                                            .mb2
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot
+                                                | Supported the development of an Autonomous Mobile Robot (AMR) to automate the transportation of production materials between manual and robotic welders, enhancing efficiency in the manufacturing process.
+                                            .small.ms-4.mb-2 
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot
+                                                | Designed and optimized building layouts using AutoCAD to support efficient workflow and facility planning. 
+                                            .small.ms-4.mb-2 
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot
+                                                | Developed and implemented VBA macros in Excel to automate tasks, improving efficiency and encouraging accurate task tracking.
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot
+                                                | Learned and applied MIG and Stick welding techniques.
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Reverse-engineered real-life structures and translated them into 3D models using Creo Parametric for manufacturing and engineering applications.
+                                        
+                            // Experience Card 2
+                            .card.shadow.border-0.rounded-4.mb-5.bg-light-cream
                                 .card-body.p-5
-                                     .row.align-items-center.gx-5
-                                        .col.text-center.text-lg-start.mb-4.mb-lg-0
-                                            .bg-light.p-4.rounded-4
-                                                .text-secondary.fw-bolder.mb-2 2015 - 2017
-                                                .mb-2
-                                                    .small.fw-bolder Barnett College
-                                                    .small.text-muted Fairfield, NY
-                                                .fst-italic
-                                                    .small.text-muted Master's
-                                                    .small.text-muted Web Development
-                                        .col-lg-8
-                                            div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
+                                    .row.g-2
+                                        .col-12.col-md-6.text-center.text-lg-start.mb-4.mb-lg-0
+                                        .bg-lighter-cream.p-4.rounded-4
+                                            .text-secondary.fw-bolder.mb-2 Jan 2023 - Jan 2025
+                                            .mb-2
+                                            .medium.fw-bolder Shift Manager
+                                            .small.fw-bolder Karns Quality Foods
+                                            .small.text-muted New Bloomfield, PA
+                                        .col-12.col-md-6.text-center.text-lg-start.mb-4.mb-lg-0
+                                        .bg-lighter-cream.p-4.rounded-4
+                                            .text-secondary.fw-bolder.mb2 Position Responsibilities
+                                            .mb2
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Supervising operation facilities 
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Managing staff members 
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Store opening and closing procedures which include handling cash deposits and ATM operations
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Informing next shift manager of pending tasks 
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Ensuring customer satisfaction  
+                                            .small.ms-4.mb-2
+                                                i.bi.bi-circle-fill.pb-1.me-2.center-svg-dot.d-inline
+                                                | Leading and training new hire employees
 
-                            // Education Card 2
-                            .card.shadow.border-0.rounded-4.mb-5
+                            // Experience Card
+                            .card.shadow.border-0.rounded-4.mb-5.bg-light-cream
                                 .card-body.p-5
-                                    .row.align-items-center.gx-5
-                                        .col.text-center.text-lg-start.mb-4.mb-lg-0
-                                            .bg-light.p-4.rounded-4
-                                                .text-secondary.fw-bolder.mb-2 2011 - 2015
-                                                .mb-2
-                                                    .small.fw-bolder ULA
-                                                    .small.text-muted Los Angeles, CA
-                                                .fst-italic
-                                                    .small.text-muted Undergraduate
-                                                    .small.text-muted Computer Science
-                                        .col-lg-8
-                                            div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
+                                    .row.g-2
+                                        .col-12.col-md-6.text-center.text-lg-start.mb-4.mb-lg-0
+                                        .bg-lighter-cream.p-4.rounded-4
+                                            .text-secondary.fw-bolder.mb-2 Feb 2022 - Feb 2023
+                                            .mb-2
+                                            .small.fw-bolder Stock Associate
+                                            .small.fw-bolder Karns Quality Foods
+                                            .small.text-muted New Bloomfield, PA
 
-                        // Divider
-                        .pb-5
 
                         // Skills Section
-                        section
+                        section(id="skills")
                             // Skillset Card
-                            .card.shadow.border-0.rounded-4.mb-5
+                            .card.shadow.border-0.rounded-4.mb-5.bg-light-cream
                                 .card-body.p-5
                                     // Professional skills list
                                     .mb-5
@@ -117,21 +131,73 @@ html(lang='en')
                                             .feature.bg-primary.bg-gradient-primary-to-secondary.text-white.rounded-3.me-3
                                                 i.bi.bi-tools
                                             h3.fw-bolder.mb-0
-                                                span.text-gradient.d-inline Professional Skills
+                                                span.text-gradient.d-inline Application Experience
                                         .row.row-cols-1.row-cols-md-3.mb-4
                                             .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 SEO/SEM Marketing
+                                                .d-flex.align-items-center.bg-lighter-cream.rounded-4.p-3.h-100
+                                                    | Fusion 360
+                                                    .ms-auto
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star.ml-2 
                                             .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Statistical Analysis
+                                                .d-flex.align-items-center.bg-lighter-cream.rounded-4.p-3.h-100 
+                                                    | Microsoft Suite
+                                                    .ms-auto
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star.ml-2 
                                             .col
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Web Development
-                                        .row.row-cols-1.row-cols-md-3
+                                                .d-flex.align-items-center.bg-lighter-cream.rounded-4.p-3.h-100
+                                                    | Creo Parametric
+                                                    .ms-auto
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2 
+                                        .row.row-cols-1.row-cols-md-3.mb-4
                                             .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Network Security
+                                                .d-flex.align-items-center.bg-lighter-cream.rounded-4.p-3.h-100
+                                                    | Git
+                                                    .ms-auto
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2 
                                             .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Adobe Software Suite
-                                            .col
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 User Interface Design
+                                                .d-flex.align-items-center.bg-lighter-cream.rounded-4.p-3.h-100
+                                                    | OrCAD PSPICE
+                                                    .ms-auto
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2 
+                                            .col.mb-4.mb-md-0
+                                                .d-flex.align-items-center.bg-lighter-cream.rounded-4.p-3.h-100
+                                                    | AutoCAD
+                                                    .ms-auto
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2 
+                                        .row.row-cols-1.row-cols-md-3.mb-4
+                                            .col.mb-4.mb-md-0
+                                                .d-flex.align-items-center.bg-lighter-cream.rounded-4.p-3.h-100
+                                                    | Docker
+                                                    .ms-auto
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star.ml-2.primary-star-color
+                                                        i.bi.bi-star.ml-2.primary-star-color 
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2 
                                     // Languages list
                                     .mb-0
                                         .d-flex.align-items-center.mb-4
@@ -141,18 +207,82 @@ html(lang='en')
                                                 span.text-gradient.d-inline Languages
                                         .row.row-cols-1.row-cols-md-3.mb-4
                                             .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 HTML
+                                                .d-flex.align-items-center.bg-lighter-cream.rounded-4.p-3.h-100
+                                                    | Python
+                                                    .ms-auto
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2 
                                             .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 CSS
+                                                .d-flex.align-items-center.bg-lighter-cream.rounded-4.p-3.h-100
+                                                    | C
+                                                    .ms-auto
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2    
                                             .col
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 JavaScript
+                                                .d-flex.align-items-center.bg-lighter-cream.rounded-4.p-3.h-100 
+                                                    | HTML/CSS
+                                                    .ms-auto
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2 
                                         .row.row-cols-1.row-cols-md-3
                                             .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Python
+                                                .d-flex.align-items-center.bg-lighter-cream.rounded-4.p-3.h-100 
+                                                    | Java
+                                                    .ms-auto
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2 
+                                                
                                             .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Ruby
-                                            .col
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Node.js
+                                                .d-flex.align-items-center.bg-lighter-cream.rounded-4.p-3.h-100
+                                                    | Typescript
+                                                    .ms-auto
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color. 
+                                                        i.bi.bi-star-fill.ml-2.primary-star-color 
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2 
+                                                        i.bi.bi-star.ml-2 
+                                                        
+                        // Divider
+                        .pb-5
+
+                        // Education Section
+                        section
+                            h2.text-secondary.fw-bolder.mb-4 Education
+
+                            // Education Card 1
+                            .card.shadow.border-0.rounded-4.mb-5.bg-light-cream
+                                .card-body.p-5
+                                    .row.g-2
+                                        .col-12.col-md-6.text-center.text-lg-start.mb-4.mb-lg-0
+                                        .bg-lighter-cream.p-4.rounded-4
+                                            .text-secondary.fw-bolder.mb-2 2021 - Anticipated May 2025 Graduation
+                                            .mb-2
+                                            .small.fw-bolder.ms-4 Shippensburg University
+                                            .small.text-muted.ms-4 Shippensburg, PA
+                                            .fst-italic
+                                            .small.text-muted.ms-5 Bachelor of Science - Computer Engineering
+                                            .small.text-muted.ms-5 Mathematics Minor
+                                        .col-12.col-md-6.text-center.text-lg-start.mb-4.mb-lg-0
+                                        .bg-lighter-cream.p-4.rounded-4
+                                            .text-secondary.fw-border.mb-2 Achievements
+                                            .small.ms-4
+                                                strong GPA: 
+                                                |   3.930 
+                                            .small.ms-4
+                                                strong Deans List: 
+                                                |   2021-2025
 
         // Footer
         include includes/footer.pug

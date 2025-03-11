@@ -19,3 +19,27 @@
 .rounded-4 {
     border-radius: $border-radius-xl !important;
 }
+
+.bg-cream {
+    background: $cream;
+}
+
+.bg-light-cream {
+    background: $light-cream;
+}
+
+.bg-lighter-cream {
+    background: $lighter-cream;
+}
+
+.primary-star-color {
+    color: $primary;
+    color: linear-gradient(135deg, $primary 0%, $secondary 100%);
+}
+
+.center-svg-dot {
+    color: $primary;
+    font-size: 0.2rem;
+    position: relative; 
+    top: -4px;
+}

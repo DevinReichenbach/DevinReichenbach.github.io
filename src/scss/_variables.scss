@@ -1,12 +1,17 @@
 // Variables
 
 // Override Bootstrap Colors
-$blue: #1e30f3;
-$pink: #e21e80;
+$light_green: #606c38;
+$dark_green: #283618;
+$light-cream: #f8f7ef;
+$lighter-cream: #fdfdf9;
+$cream: #FEFAE0;
+
+
 
 // Redefine Bootstrap State Colors
-$primary: $blue;
-$secondary: $pink;
+$primary: $dark_green;
+$secondary: $light_green;
 
 // Bootstrap Variable Functions
 $enable-negative-margins: true;
