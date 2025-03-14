@@ -11593,6 +11593,18 @@ html {
   top: -4px;
 }
 
+.card:hover {
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.card {
+  transform: scale(1);
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
 .feature {
   display: inline-flex;
   align-items: center;
