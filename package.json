@@ -37,6 +37,7 @@
     },
     "dependencies": {
         "bootstrap": "5.2.3",
+        "bootstrap-icons": "^1.11.3",
         "clean.js": "^0.0.3"
     },
     "devDependencies": {
