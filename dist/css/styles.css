@@ -11606,11 +11606,6 @@ html {
   transition-timing-function: linear;
 }
 
-iframe {
-  width: 100%;
-  height: 600px;
-}
-
 .feature {
   display: inline-flex;
   align-items: center;
