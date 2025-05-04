@@ -11636,6 +11636,10 @@ summary {
   text-align: center;
 }
 
+summary:hover, details[open] summary {
+  background-color: #FEFAE0;
+}
+
 .feature {
   display: inline-flex;
   align-items: center;

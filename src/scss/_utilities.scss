@@ -85,3 +85,7 @@ summary {
     list-style: none; /* Removes the default triangle icon */
     text-align: center;
   }
+
+summary:hover, details[open] summary {
+    background-color: $cream;
+}
