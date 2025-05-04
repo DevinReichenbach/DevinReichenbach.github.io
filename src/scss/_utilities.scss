@@ -56,6 +56,10 @@
     transition-timing-function: linear;
 }
 
+.details-container {
+    margin-top: 5%;
+}
+
 .iframe-wrapper {
     width: 100%;
     max-width: 100%;
@@ -68,3 +72,16 @@
     height: 600px;
     border: none;
 }
+
+summary {
+    background-color: $lighter-cream;
+    color: $primary;
+    padding: 14px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    border: solid;
+    border-color: black;
+    list-style: none; /* Removes the default triangle icon */
+    text-align: center;
+  }
